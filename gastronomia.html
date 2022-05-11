@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Ilha Terceira </title> 
+  <header>
+    <style>
+      /* para o header*/
+     h1 { text-align: center;}
+    </style>
+  </header>
+<body>
+  <div>    
+    <h1 style="color: blue" style="font-family: verdana;"><img src="pic/acores.jpg"> Açores, Ilha Terceira </h1>
+  </div> 
+  <h1> 
+
+    <a href="file:///C:/Users/Jo%C3%A3o/Desktop/EFb/home.html"> Inicio | </a> 
+    <a href="file:///C:/Users/Jo%C3%A3o/Desktop/EFb/sobre.html"> Sobre |</a>
+    <a href="file:///C:/Users/Jo%C3%A3o/Desktop/EFb/gastronomia.html">  Gastronomia  |</a>
+    <a href="file:///C:/Users/Jo%C3%A3o/Desktop/EFb/visitar.html">  A visitar  |</a>
+    <a href="file:///C:/Users/Jo%C3%A3o/Desktop/EFb/tauromaquia.html">  Tauromaquia  </a>
+  </h1>
+
+  <style>
+    /*imagem de */
+      body {
+        background-image: url("pic/Monte_Brasil\,_visto_do_mar\,.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+        font-family: Arial;
+        margin: 0;
+      }
+      * {
+           box-sizing: border-box; 
+        }
+        img {
+          vertical-align: middle; /* alinha imagem com foto*/
+        }
+   
+</style>
+
+<table align="center">
+  <tr>
+    <td><img onclick="alteraImg(this)" onmouseout="restauraImg(this)"   src="pic/Gastronomia/alcatra.jpg" width="400" height="400"></td>
+    <td><img onclick="alteraImg(this)" onmouseout="restauraImg(this)"   src="pic/Gastronomia/Cornucópias.jpg" width="400" height="400"></td>
+    <td><img onclick="alteraImg(this)" onmouseout="restauraImg(this)"   src="pic/Gastronomia/rest-queijadas-dona-amelia.jpg" width="400" height="400"></td>  
+  </tr>
+  <tr>
+    <td><img onclick="alteraImg(this)" onmouseout="restauraImg(this)"   src="pic/Gastronomia/lapas.jpg" width="400" height="400"></td>
+    <td><img onclick="alteraImg(this)" onmouseout="restauraImg(this)"   src="pic/Gastronomia/Ilha-Terceira-Acores-6.jpg" width="400" height="400"></td>
+    <td><img onclick="alteraImg(this)" onmouseout="restauraImg(this)"   src="pic/Gastronomia/Ilha-Terceira-Acores-7.jpg" width="400" height="400"></td>
+  </tr>
+  <tr>
+    <td><img onclick="alteraImg(this)" onmouseout="restauraImg(this)"   src="pic/Gastronomia/Ilha-Terceira-Acores-44.jpg" width="400" height="400"></td>
+    <td><img onclick="alteraImg(this)" onmouseout="restauraImg(this)"   src="pic/Gastronomia/Ilha-Terceira-Acores-45-1024x768.jpg" width="400" height="400"></td>
+    <td><img onclick="alteraImg(this)" onmouseout="restauraImg(this)"   src="pic/Gastronomia/rest-beira-mar-1.jpg" width="400" height="400"></td>
+  </tr>
+  <tr>
+    <td><img onclick="alteraImg(this)" onmouseout="restauraImg(this)"   src="pic/Gastronomia/camarao.jpg" width="400" height="400"></td>
+    <td><img onclick="alteraImg(this)" onmouseout="restauraImg(this)"   src="pic/Gastronomia/camarao2.jpg" width="400" height="400"></td>
+    <td><img onclick="alteraImg(this)" onmouseout="restauraImg(this)"   src="pic/Gastronomia/peixe-assado.jpg" width="400" height="400"></td>
+  </tr>
+  <script>
+    /*alterar tamanho das imagens ao clicar*/
+          function alteraImg(x) {
+             x.style.height = "700px";
+             x.style.width = "700px";
+          }
+          function restauraImg(x) {
+            x.style.height = "400px";
+            x.style.width = "400px";
+          } 
+  </script>
+    
+</body>
+</html>
+ 

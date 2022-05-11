@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Ilha Terceira </title> 
+  <header>
+    <style>
+      /* para o header*/
+     h1 { text-align: center;}
+    </style>
+  </header>
+<body>
+  <div>    
+    <h1 style="color: blue" style="font-family: verdana;"><img src="pic/acores.jpg"> Açores, Ilha Terceira </h1>
+  </div> 
+  <h1> 
+
+    <a href="file:///C:/Users/Jo%C3%A3o/Desktop/EFb/home.html"> Inicio | </a> 
+    <a href="file:///C:/Users/Jo%C3%A3o/Desktop/EFb/sobre.html"> Sobre |</a>
+    <a href="file:///C:/Users/Jo%C3%A3o/Desktop/EFb/gastronomia.html">  Gastronomia  |</a>
+    <a href="file:///C:/Users/Jo%C3%A3o/Desktop/EFb/visitar.html">  A visitar  |</a>
+    <a href="file:///C:/Users/Jo%C3%A3o/Desktop/EFb/tauromaquia.html">  Tauromaquia  </a>
+  </h1>
+
+  <style>
+    /*imagem de */
+      body {
+        background-image: url("pic/Monte_Brasil\,_visto_do_mar\,.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+        font-family: Arial;
+        margin: 0;
+      }
+      * {
+           box-sizing: border-box; 
+        }
+        img {
+          vertical-align: middle; /* alinha imagem com foto*/
+        }
+</style> 
+<body>
+  <h2 style="text-align: center;"> Algumas imagens da Terra </h2>
+  <style>
+    * {box-sizing: border-box}
+    body {font-family: Verdana, sans-serif; margin:0}
+    .meusSlides {display: none}
+    img {vertical-align: middle;}
+    
+    /* contentor para o slide de imagens */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Posicao do  "next button" para direita */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* um cor de backgournd preta iigeira */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* texto */
+    .text {
+      color: #ffffff;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* (1/3 etc) */
+    .numbertext {
+      color: black;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* Indicadores */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #ffffff;
+    }
+    
+    /* animaçao de apagar um pouco a imagem
+     */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    /* Em ecras pequenos o texto decresce */
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="slideshow-container">
+    
+    <div class="meusSlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="pic/Angra/angracidade.jpg" style="width:100%">
+      <div class="text">Angra do Heroísmo</div>
+    </div>
+    
+    <div class="meusSlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="pic/Praia/Praia_da_Vitória.jpg" style="width:100%">
+      <div class="text">Praia da Vitória</div>
+    </div>
+    
+    <div class="meusSlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="pic/Jardims e Serra/Ilha-Terceira-serra-do-cume-1.jpg" style="width:100%">
+      <div class="text">Serra do Cume</div>
+    </div>
+
+    <div class="meusSlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="pic/Jardims e Serra/Golfinhos_junto_ao_Monte_Brasil,_ilha_Terceira,_Açores.jpg" style="width:100%">
+      <div class="text">Golfinho nas viagens de barco</div>
+    </div>
+    
+    <div class="meusSlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="pic/Jardims e Serra/hortensias60.jpg" style="width:100%">
+      <div class="text"> Hotências</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("meusSlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+</body>
+</html>
